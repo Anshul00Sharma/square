@@ -26,6 +26,8 @@
                 locationId,
                 sourceId: token,
                 verificationToken,
+                amount: 100,
+                currency: 'USD'
             });
 
             const paymentResponse = await fetch('https://data.gurukool.life/api/v1/payments/squarePayment', {
